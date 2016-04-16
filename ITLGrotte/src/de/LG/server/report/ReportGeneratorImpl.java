@@ -2,12 +2,16 @@ package de.LG.server.report;
 
 import java.util.Vector;
 
+import com.google.gwt.user.server.rpc.RemoteServiceServlet;
+
+import de.LG.shared.ReportGeneratorService;
 import de.LG.shared.BO.Kontaktsperre;
 import de.LG.shared.BO.Merkzettel;
 import de.LG.shared.BO.Profil;
 import de.LG.shared.BO.Suchprofil;
 
-public class ReportGeneratorImpl {
+@SuppressWarnings("serial")
+public class ReportGeneratorImpl extends RemoteServiceServlet implements ReportGeneratorService {
 	
 	
 	//Profil
