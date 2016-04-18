@@ -6,6 +6,20 @@ import de.LG.shared.BO.Merkzettel;
 
 public class MerkzettelMapper {
 	
+	
+	private static MerkzettelMapper mzMapper = null;
+	
+	protected MerkzettelMapper(){
+		
+	}
+	
+	public MerkzettelMapper merkzettelMapper(){
+		if(mzMapper == null){
+			mzMapper = new MerkzettelMapper();
+		}
+		return mzMapper;
+	}
+	
 	public void insertMerkzettel(Merkzettel mz){
 		
 	}

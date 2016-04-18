@@ -7,6 +7,20 @@ import de.LG.shared.BO.Suchprofil;
 
 public class ProfilMapper {
 	
+	
+	private static ProfilMapper profilMapper = null;
+	
+	protected ProfilMapper(){
+		
+	}
+	
+	public ProfilMapper profilMapper(){
+		if(profilMapper == null){
+			profilMapper = new ProfilMapper();
+		}
+		return profilMapper;
+	}
+	
 	//@param googleID
 	public Profil getProfilByGoogleID(){
 		return null;

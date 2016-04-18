@@ -7,6 +7,19 @@ import de.LG.shared.BO.EigenschaftAuswahl;
 
 public class EigenschaftMapper {
 	
+	private static EigenschaftMapper eMapper = null;
+	
+	protected EigenschaftMapper(){
+		
+	}
+	
+	public EigenschaftMapper eigenschaftMapper(){
+		if(eMapper == null){
+			eMapper = new EigenschaftMapper();
+		}
+		return eMapper;
+	}
+	
 	public void insertEigenschaft(Eigenschaft e){
 		
 	}

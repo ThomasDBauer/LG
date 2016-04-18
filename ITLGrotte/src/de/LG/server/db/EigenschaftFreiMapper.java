@@ -7,6 +7,21 @@ import de.LG.shared.BO.EigenschaftFrei;
 
 public class EigenschaftFreiMapper {
 	
+	
+	private static EigenschaftFreiMapper eFreiMapper = null;
+	
+	protected EigenschaftFreiMapper(){
+		
+	}
+	
+	public EigenschaftFreiMapper eigenschaftFreiMapper(){
+		if(eFreiMapper == null){
+			eFreiMapper = new EigenschaftFreiMapper();
+		}
+		return eFreiMapper;
+	}
+	
+	
 	public void insertEigenschaftFrei(EigenschaftFrei e){
 		
 	}

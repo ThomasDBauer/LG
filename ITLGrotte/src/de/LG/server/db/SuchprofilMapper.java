@@ -6,6 +6,21 @@ import de.LG.shared.BO.Suchprofil;
 
 public class SuchprofilMapper {
 
+	
+	private static SuchprofilMapper spMapper = null;
+	
+	protected SuchprofilMapper(){
+		
+	}
+	
+	public SuchprofilMapper suchprofilMapper(){
+		if(spMapper == null){
+			spMapper = new SuchprofilMapper();
+		}
+		return spMapper;
+	}
+	
+	
 	public void insertSuchprofil (Suchprofil sp){
 		
 	}

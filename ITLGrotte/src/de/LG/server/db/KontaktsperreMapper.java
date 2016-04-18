@@ -7,6 +7,19 @@ import de.LG.shared.BO.Kontaktsperre;
 
 public class KontaktsperreMapper {
 
+	private static KontaktsperreMapper ksMapper = null;
+	
+	protected KontaktsperreMapper(){
+		
+	}
+	
+	public KontaktsperreMapper kontaktsperreMapper(){
+		if(ksMapper == null){
+			ksMapper = new KontaktsperreMapper();
+		}
+		return ksMapper;
+	}
+	
 	public void insertKontaktsperre(Kontaktsperre ks){
 		
 	}

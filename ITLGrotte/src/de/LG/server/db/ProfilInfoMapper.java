@@ -6,6 +6,20 @@ import de.LG.shared.BO.ProfilInfo;
 
 public class ProfilInfoMapper {
 
+	private static ProfilInfoMapper piMapper = null;
+	
+	protected ProfilInfoMapper(){
+		
+	}
+	
+	public ProfilInfoMapper profilInfoMapper(){
+		if(piMapper == null){
+			piMapper = new ProfilInfoMapper();
+		}
+		return piMapper;
+	}
+	
+	
 	public void insertProfilInfo(ProfilInfo pi){
 		
 	}
