@@ -11,7 +11,7 @@ import de.LG.shared.BO.Profil;
 import de.LG.shared.BO.Suchprofil;
 
 @SuppressWarnings("serial")
-public class EditorImpl extends RemoteServiceServlet implements EditorService{
+public class EditorServiceImpl extends RemoteServiceServlet implements EditorService{
 	
 	public String hello(String name){
 		return "Hallo " + name;

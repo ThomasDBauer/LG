@@ -18,7 +18,8 @@ public class Profil extends BusinessObject{
 	private Info[] profilInformation;
 	private Merkzettel merkzettel;
 	private Kontaktsperre[] sperrliste;
-	private Aehnlichkeitsmass[]aehnlichkeitsmasse;
+	private Aehnlichkeitsmass[] aehnlichkeitsmass;
+	private Suchprofil suchprofil;
 	
 	
 	
@@ -35,10 +36,10 @@ public class Profil extends BusinessObject{
 		this.sperrliste = sperrliste;
 	}
 	public Aehnlichkeitsmass[] getAehnlichkeitsmasse() {
-		return aehnlichkeitsmasse;
+		return aehnlichkeitsmass;
 	}
 	public void setAehnlichkeitsmasse(Aehnlichkeitsmass[] aehnlichkeitsmasse) {
-		this.aehnlichkeitsmasse = aehnlichkeitsmasse;
+		this.aehnlichkeitsmass = aehnlichkeitsmasse;
 	}
 	public String getHaarfarbe() {
 		return haarfarbe;
@@ -99,6 +100,18 @@ public class Profil extends BusinessObject{
 	}
 	public void setProfilInformation(Info[] profilInformation) {
 		this.profilInformation = profilInformation;
+	}
+	public Aehnlichkeitsmass[] getAehnlichkeitsmass() {
+		return aehnlichkeitsmass;
+	}
+	public void setAehnlichkeitsmass(Aehnlichkeitsmass[] aehnlichkeitsmass) {
+		this.aehnlichkeitsmass = aehnlichkeitsmass;
+	}
+	public Suchprofil getSuchprofil() {
+		return suchprofil;
+	}
+	public void setSuchprofil(Suchprofil suchprofil) {
+		this.suchprofil = suchprofil;
 	}
 	
 	

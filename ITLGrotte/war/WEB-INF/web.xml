@@ -8,7 +8,7 @@
   <!-- Servlets -->
   <servlet>
     <servlet-name>editorServlet</servlet-name>
-    <servlet-class>de.LG.server.editor.EditorImpl</servlet-class>
+    <servlet-class>de.LG.server.editor.EditorServiceImpl</servlet-class>
   </servlet>
   
   <servlet-mapping>

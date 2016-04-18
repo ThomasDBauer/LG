@@ -7,14 +7,14 @@ public class EigenschaftFrei extends Eigenschaft{
 	 */
 	private static final long serialVersionUID = 1L;
 	
-	private String text;
+	private String value;
 
 	public String getText() {
-		return text;
+		return value;
 	}
 
 	public void setText(String text) {
-		this.text = text;
+		this.value = text;
 	}
 	
 	

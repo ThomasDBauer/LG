@@ -9,6 +9,7 @@ import de.LG.shared.BO.Kontaktsperre;
 import de.LG.shared.BO.Merkzettel;
 import de.LG.shared.BO.Profil;
 import de.LG.shared.BO.Suchprofil;
+import de.LG.shared.BO.Visit;
 
 @SuppressWarnings("serial")
 public class ReportGeneratorImpl extends RemoteServiceServlet implements ReportGeneratorService {
@@ -32,6 +33,14 @@ public class ReportGeneratorImpl extends RemoteServiceServlet implements ReportG
 		return null;
 	}
 	
+	public Vector<Profil> getProfilesByVisits(Visit[] v){
+		return null;
+	}
+	
+	public Vector<Profil> getNotVisitedProfiles(Profil p){
+		return null;
+	}
+	
 	
 	
 	//@param GoogleWhatever
@@ -43,7 +52,7 @@ public class ReportGeneratorImpl extends RemoteServiceServlet implements ReportG
 	
 	//Merkzettel
 	
-	public Merkzettel[] getAllMerkzettelByProfil(Profil p){
+	public Merkzettel getMerkzettelByProfil(Profil p){
 		return null;
 	}
 	
@@ -51,7 +60,7 @@ public class ReportGeneratorImpl extends RemoteServiceServlet implements ReportG
 	
 	//Kontaktsperre
 	
-	public Kontaktsperre[] getAllKontaktsperreByProfil(Profil p){
+	public Vector<Kontaktsperre> getAllKontaktsperreByProfil(Profil p){
 		return null;
 	}
 	
@@ -60,6 +69,13 @@ public class ReportGeneratorImpl extends RemoteServiceServlet implements ReportG
 	//Suchprofil
 	
 	public Suchprofil getSuchprofilByProfil(Profil p){
+		return null;
+	}
+	
+	
+	//Visits
+	
+	public Vector<Visit> getVisitsByProfile(Profil p){
 		return null;
 	}
 	
