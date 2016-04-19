@@ -16,6 +16,7 @@ import de.LG.shared.EditorServiceAsync;
 	
 
 /** Demo Kommentar auf Nicolai Branch */
+/** Zedats fork-Test */
 public class ITLGrotte implements EntryPoint {
 
 	//Demo Attribute für die Startseite
