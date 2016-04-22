@@ -7,7 +7,6 @@ import de.LG.shared.BO.Suchprofil;
 
 public class ProfilMapper {
 	
-	
 	private static ProfilMapper profilMapper = null;
 	
 	protected ProfilMapper(){
