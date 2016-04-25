@@ -18,7 +18,7 @@ import de.LG.shared.EditorServiceAsync;
 
 public class ITLGrotte implements EntryPoint {
 
-	//gitTest
+	//gitTest222
 	private TextBox textbox = new TextBox();
 	private Button button = new Button();
 	
