@@ -17,6 +17,8 @@ public class EditorServiceImpl extends RemoteServiceServlet implements EditorSer
 		return "Hallo " + name;
 	}
 	
+	//git Test
+	
 	public void profilErstellen(Profil p){
 		
 		//1. profilMapper.create(p);
