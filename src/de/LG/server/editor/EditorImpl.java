@@ -12,7 +12,7 @@ import de.LG.shared.BO.Suchprofil;
 
 @SuppressWarnings("serial")
 public class EditorImpl extends RemoteServiceServlet implements EditorService{
-	
+	//pewtest1
 	public String hello(String name){
 		return "Hallo " + name;
 	}
