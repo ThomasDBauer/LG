@@ -11,7 +11,7 @@ public class ReportGeneratorImpl {
 	
 	
 	//Profil
-	
+	//pewtest1
 	public Vector<Profil> getProfiles(){
 		return null;
 	}
