@@ -6,7 +6,7 @@ import de.LG.shared.BO.Merkzettel;
 
 public class MerkzettelMapper {
 	
-	
+	// Ich bin cool
 	private static MerkzettelMapper mzMapper = null;
 	
 	protected MerkzettelMapper(){
